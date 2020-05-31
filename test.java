@@ -1,7 +1,9 @@
+import java.io.*;
 public class test{
-    public static void main(String args[])
+    public static void main(String args[]) throws Exception
     {
-        //System.out.println("Hello World");
+        PrintStream o=new PrintStream(new File("output.txt"));
+        System.setOut(o);
         for(int i=0;i<10;i++)
         {
             System.out.println(i);
