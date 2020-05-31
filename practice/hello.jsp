@@ -17,8 +17,9 @@ application.
 </tr>
 </table>
 
-<%= new String("Hello!") 
+<%= new String("Sambhav Jain!") 
   int a=10;
+  System.out.println(a);
 %>
 
 </body>
